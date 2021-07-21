@@ -1,0 +1,68 @@
+/* Geral */
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#app{
+    display:flex;
+    flex-direction: column;
+}
+
+.panel{
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 2pt 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Área dos pontos */
+.scores{
+    display: flex;
+}
+
+.score{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score h1{
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+
+.life-bar{
+    width: 80%;
+    height: 20px;
+    border: 1px solid #AAA;
+}
+
+.life-bar .life{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: green;
+}
+
+.life-bar .life.danger{
+    background-color: red;
+}
+
+/* Área do Resultado */
+
+.result{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.result .win{
+    color:green;
+}
+
+.result .lose{
+    color:red;
+}
