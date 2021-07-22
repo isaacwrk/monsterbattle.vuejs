@@ -5,8 +5,12 @@
 
 > This project is a game built in vue.js  to put the learned concepts into practice about condicionals, lists, and DOM manipulation
 
+What I've learned?
+manipulate DOM with, v-if, v-bind, working with computed, data, methods and watch.
 
 Features:
 You can attack  , special attack, heal, or give up!
 logs from the battle detaling the damage /heal from player and monster.
+
+The monster always do more damage than you, unless you use your special attack, and use wisely you heal because when you heal you'll be open to receive a monster attack!
 ![](https://github.com/isaacwrk/js-exercises/blob/master/ex/vuejs.png)
