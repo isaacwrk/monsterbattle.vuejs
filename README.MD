@@ -14,3 +14,5 @@ logs from the battle detaling the damage /heal from player and monster.
 
 The monster always do more damage than you, unless you use your special attack, and use wisely you heal because when you heal you'll be open to receive a monster attack!
 ![](https://github.com/isaacwrk/js-exercises/blob/master/ex/vuejs.png)
+
+you can test clicking [here!](https://isaacwrk.github.io/monsterbattle.vuejs/)
